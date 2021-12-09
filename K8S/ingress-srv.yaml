@@ -1,0 +1,36 @@
+﻿apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-srv
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/use-regex: 'true'
+spec:
+  rules:
+    - host: mangophar.com
+      http:
+        paths:
+          - path: /api/items
+            pathType: Prefix
+            backend:
+              service:
+                name: items-clusterip-srv
+                port:
+                  number: 80
+          - path: /api/sellers
+            pathType: Prefix
+            backend:
+              service:
+                name: sellers-clusterip-srv
+                port:
+                  number: 80
+          - path: /api/buyers
+            pathType: Prefix
+            backend:
+              service:
+                name: buyers-clusterip-srv
+                port:
+                  number: 80
+         
+
+              

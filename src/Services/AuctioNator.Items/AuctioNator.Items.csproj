@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>0e49a995-ea34-4aa4-b072-bbb8d8a309c4</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Ragna\.nuget\packages\mongodb.driver.core\2.14.1\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\linux\libsnappy64.so" />
+    <Content Remove="C:\Users\Ragna\.nuget\packages\mongodb.driver.core\2.14.1\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\osx\libsnappy64.dylib" />
+    <Content Remove="C:\Users\Ragna\.nuget\packages\mongodb.driver.core\2.14.1\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\win\snappy32.dll" />
+    <Content Remove="C:\Users\Ragna\.nuget\packages\mongodb.driver.core\2.14.1\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\win\snappy64.dll" />
+    <Content Remove="C:\Users\Ragna\.nuget\packages\mongodb.driver.core\2.14.1\contentFiles\any\netstandard2.1\Core\Compression\Zstandard\lib\linux\libzstd.so" />
+    <Content Remove="C:\Users\Ragna\.nuget\packages\mongodb.driver.core\2.14.1\contentFiles\any\netstandard2.1\Core\Compression\Zstandard\lib\osx\libzstd.dylib" />
+    <Content Remove="C:\Users\Ragna\.nuget\packages\mongodb.driver.core\2.14.1\contentFiles\any\netstandard2.1\Core\Compression\Zstandard\lib\win\libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.2" />
+    <PackageReference Include="SharpYaml" Version="1.8.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
+    <PackageReference Include="YamlDotNet" Version="11.2.1" />
+  </ItemGroup>
+
+</Project>

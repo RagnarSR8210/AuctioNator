@@ -1,0 +1,13 @@
+﻿apiVersion: v1
+kind: Service
+metadata: 
+  name: auctionatorhousenp-srv
+spec:
+  type: NodePort
+  selector:
+    app: auctionator-house
+  ports:
+    - name: auctionator-house
+      protocol: TCP
+      port: 80
+      targetPort: 80

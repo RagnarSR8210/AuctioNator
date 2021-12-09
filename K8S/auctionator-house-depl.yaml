@@ -1,0 +1,31 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auctionator-house-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: auctionator-house
+  template:
+    metadata:
+      labels:
+        app: auctionator-house
+    spec:
+      containers:
+        - name: auctionator-house
+          image: kingzaro/auctionator.house:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: house-clusterip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: auctionator-house
+  ports:
+  - name: auctionator-house
+    protocol: TCP
+    port: 80
+    targetPort: 80

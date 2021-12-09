@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "afa7d232-9b35-493c-b582-b58c0a869571": {
+      "ProjectGuid": "afa7d232-9b35-493c-b582-b58c0a869571",
+      "DisplayName": "AuctioNator.Client",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

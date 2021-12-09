@@ -1,0 +1,13 @@
+﻿apiVersion: v1
+kind: Service
+metadata: 
+  name: auctionatorbuyersnp-srv
+spec:
+  type: NodePort
+  selector:
+    app: auctionator-buyers
+  ports:
+    - name: auctionator-buyers
+      protocol: TCP
+      port: 80
+      targetPort: 80

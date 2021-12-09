@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AuctioNator.Client
+build_property.RootNamespace = AuctioNator.Client
+build_property.ProjectDir = C:\Users\Ragna\Desktop\Github\Auctionator\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ragna\Desktop\Github\Auctionator
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/AuctioNator.Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENsaWVudFxBdWN0aW9OYXRvci5DbGllbnRcQXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/AuctioNator.Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENsaWVudFxBdWN0aW9OYXRvci5DbGllbnRcUGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/AuctioNator.Client/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENsaWVudFxBdWN0aW9OYXRvci5DbGllbnRcUGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/AuctioNator.Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENsaWVudFxBdWN0aW9OYXRvci5DbGllbnRcUGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/AuctioNator.Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENsaWVudFxBdWN0aW9OYXRvci5DbGllbnRcU2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/AuctioNator.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENsaWVudFxBdWN0aW9OYXRvci5DbGllbnRcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-eat7aegoay
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-cgbdbnb45r
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/AuctioNator.Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENsaWVudFxBdWN0aW9OYXRvci5DbGllbnRcU2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-b1o7uikkke
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/AuctioNator.Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENsaWVudFxBdWN0aW9OYXRvci5DbGllbnRcU2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rwlu0dtaf8
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/AuctioNator.Client/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENsaWVudFxBdWN0aW9OYXRvci5DbGllbnRcUGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/AuctioNator.Client/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENsaWVudFxBdWN0aW9OYXRvci5DbGllbnRcUGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/AuctioNator.Client/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENsaWVudFxBdWN0aW9OYXRvci5DbGllbnRcUGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

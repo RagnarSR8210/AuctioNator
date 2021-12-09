@@ -1,0 +1,35 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auctionator-buyers-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: auctionator-buyers
+  template:
+    metadata:
+      labels:
+        app: auctionator-buyers
+    spec:
+      containers:
+        - name: auctionator-buyers
+          image: kingzaro/auctionator.buyers:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: buyers-clusterip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: auctionator-buyers
+  ports:
+  - name: auctionator-buyers
+    protocol: TCP
+    port: 80
+    targetPort: 80
+  - name: itemsgrpc
+    protocol: TCP
+    port: 666
+    targetPort: 666

@@ -1,0 +1,31 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auctionator-sellers-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: auctionator-sellers
+  template:
+    metadata:
+      labels:
+        app: auctionator-sellers
+    spec:
+      containers:
+        - name: auctionator-sellers
+          image: kingzaro/auctionator.sellers:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sellers-clusterip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: auctionator-sellers
+  ports:
+  - name: auctionator-sellers
+    protocol: TCP
+    port: 80
+    targetPort: 80

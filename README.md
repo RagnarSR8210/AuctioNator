@@ -1,2 +1,2 @@
-# Auctionator
- 4. Semester eksamen
+# AuctioNator-Master
+ 4. Semester project
