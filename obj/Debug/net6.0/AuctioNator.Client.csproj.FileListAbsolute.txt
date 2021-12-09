@@ -6,3 +6,11 @@ C:\Users\Ragna\Desktop\Github\AuctioNator-Master\obj\Debug\net6.0\AuctioNator.Cl
 C:\Users\Ragna\Desktop\Github\AuctioNator-Master\obj\Debug\net6.0\AuctioNator.Client.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Ragna\Desktop\Github\AuctioNator-Master\obj\Debug\net6.0\AuctioNator.Client.RazorAssemblyInfo.cache
 C:\Users\Ragna\Desktop\Github\AuctioNator-Master\obj\Debug\net6.0\AuctioNator.Client.RazorAssemblyInfo.cs
+C:\Users\Ragna\Desktop\Github\Auctionator\obj\Debug\net6.0\AuctioNator.Client.csproj.AssemblyReference.cache
+C:\Users\Ragna\Desktop\Github\Auctionator\obj\Debug\net6.0\AuctioNator.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ragna\Desktop\Github\Auctionator\obj\Debug\net6.0\AuctioNator.Client.AssemblyInfoInputs.cache
+C:\Users\Ragna\Desktop\Github\Auctionator\obj\Debug\net6.0\AuctioNator.Client.AssemblyInfo.cs
+C:\Users\Ragna\Desktop\Github\Auctionator\obj\Debug\net6.0\AuctioNator.Client.csproj.CoreCompileInputs.cache
+C:\Users\Ragna\Desktop\Github\Auctionator\obj\Debug\net6.0\AuctioNator.Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ragna\Desktop\Github\Auctionator\obj\Debug\net6.0\AuctioNator.Client.RazorAssemblyInfo.cache
+C:\Users\Ragna\Desktop\Github\Auctionator\obj\Debug\net6.0\AuctioNator.Client.RazorAssemblyInfo.cs

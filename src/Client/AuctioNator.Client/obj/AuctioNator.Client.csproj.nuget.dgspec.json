@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ragna\\Desktop\\Github\\AuctioNator-Master\\src\\Client\\AuctioNator.Client\\AuctioNator.Client.csproj": {}
+    "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\Auctionator.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ragna\\Desktop\\Github\\AuctioNator-Master\\src\\Client\\AuctioNator.Client\\AuctioNator.Client.csproj": {
+    "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\Auctionator.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ragna\\Desktop\\Github\\AuctioNator-Master\\src\\Client\\AuctioNator.Client\\AuctioNator.Client.csproj",
-        "projectName": "AuctioNator.Client",
-        "projectPath": "C:\\Users\\Ragna\\Desktop\\Github\\AuctioNator-Master\\src\\Client\\AuctioNator.Client\\AuctioNator.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\Auctionator.Client.csproj",
+        "projectName": "Auctionator.Client",
+        "projectPath": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\Auctionator.Client.csproj",
         "packagesPath": "C:\\Users\\Ragna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ragna\\Desktop\\Github\\AuctioNator-Master\\src\\Client\\AuctioNator.Client\\obj\\",
+        "outputPath": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ragna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
