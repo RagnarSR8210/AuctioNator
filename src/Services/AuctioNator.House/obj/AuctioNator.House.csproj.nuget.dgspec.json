@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.House\\AuctioNator.House.csproj": {}
+    "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.House\\AuctioNator.House.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.House\\AuctioNator.House.csproj": {
+    "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.House\\AuctioNator.House.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.House\\AuctioNator.House.csproj",
+        "projectUniqueName": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.House\\AuctioNator.House.csproj",
         "projectName": "AuctioNator.House",
-        "projectPath": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.House\\AuctioNator.House.csproj",
+        "projectPath": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.House\\AuctioNator.House.csproj",
         "packagesPath": "C:\\Users\\Ragna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.House\\obj\\",
+        "outputPath": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.House\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ragna\\AppData\\Roaming\\NuGet\\NuGet.Config",

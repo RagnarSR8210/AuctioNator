@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rIR1iP8k68rc4r7TgvNoJGBz7Dc0lJUa2ehmDFumqxu+SH+anVVmfeX4fgFKyTUSmykeTAzbqwlNeEFYcak/YQ==",
+  "dgSpecHash": "kUnjpvhCkn873q3/irnMaeL94JffzW4/E2X9N/L7w/P29QsarapRX3iqnyjCLZA6NfwzJlNq/Xan5duEx37+SA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\AuctioNator.Client.csproj",
+  "projectFilePath": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\AuctioNator.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ragna\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ragna\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

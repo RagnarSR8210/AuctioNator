@@ -5,7 +5,17 @@
       "ProjectGuid": "2b60e0f4-8a2a-48f5-b9e7-1df3d45e696b",
       "DisplayName": "Auctionator.Client",
       "ColorIndex": 0
+    },
+    "4b8a2aa6-a739-4e1b-a5e6-6e474878214f": {
+      "ProjectGuid": "4b8a2aa6-a739-4e1b-a5e6-6e474878214f",
+      "DisplayName": "Auctionator.Client",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

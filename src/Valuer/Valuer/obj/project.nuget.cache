@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3bX51VXX9n/qhSU85J/4V2nWz/kNWCiaJj/3AKfQbpClq+4BQpHVQ2/67yqNxXYY7sqKixyaTRhyNnM9hoI0iA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Valuer\\Valuer\\Valuer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ragna\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -45,7 +45,17 @@
       "ProjectGuid": "1bebe2af-8082-4fec-9c94-556ed33062c8",
       "DisplayName": "AuctioNator.Sellers",
       "ColorIndex": 7
+    },
+    "2d3c4551-3bf9-4af8-b95c-55303ee07700": {
+      "ProjectGuid": "2d3c4551-3bf9-4af8-b95c-55303ee07700",
+      "DisplayName": "Machine learning",
+      "ColorIndex": 8
+    },
+    "df5a5ae9-8d53-4a59-b81f-c2052fc41ab0": {
+      "ProjectGuid": "df5a5ae9-8d53-4a59-b81f-c2052fc41ab0",
+      "DisplayName": "Valuer",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 10
 }

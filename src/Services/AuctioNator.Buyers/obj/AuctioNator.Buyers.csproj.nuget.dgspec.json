@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.Buyers\\AuctioNator.Buyers.csproj": {}
+    "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.Buyers\\AuctioNator.Buyers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.Buyers\\AuctioNator.Buyers.csproj": {
+    "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.Buyers\\AuctioNator.Buyers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.Buyers\\AuctioNator.Buyers.csproj",
+        "projectUniqueName": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.Buyers\\AuctioNator.Buyers.csproj",
         "projectName": "AuctioNator.Buyers",
-        "projectPath": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.Buyers\\AuctioNator.Buyers.csproj",
+        "projectPath": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.Buyers\\AuctioNator.Buyers.csproj",
         "packagesPath": "C:\\Users\\Ragna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.Buyers\\obj\\",
+        "outputPath": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.Buyers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ragna\\AppData\\Roaming\\NuGet\\NuGet.Config",

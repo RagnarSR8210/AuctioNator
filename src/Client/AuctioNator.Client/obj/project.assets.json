@@ -9536,11 +9536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\Auctionator.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\Auctionator.Client.csproj",
       "projectName": "Auctionator.Client",
-      "projectPath": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\Auctionator.Client.csproj",
+      "projectPath": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\Auctionator.Client.csproj",
       "packagesPath": "C:\\Users\\Ragna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\",
+      "outputPath": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ragna\\AppData\\Roaming\\NuGet\\NuGet.Config",

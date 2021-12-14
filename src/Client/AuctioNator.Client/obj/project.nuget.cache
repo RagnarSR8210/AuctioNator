@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "igOeu7hWoprHTgmmwzKBpcTKnhL/JPqnaW/nK0yXd4eePAJOGGWyH6e9ig9840C+bfPZF8gsxudq0V+ZtO+Nxw==",
+  "dgSpecHash": "5Js0U4JFNXQsRFLINtFTkzc+VX691RcQJdJw7M24pRNEA6TYSbbNoBCKf7ZkTcdASi02r2+tFHUNwUyqzybnow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\Auctionator.Client.csproj",
+  "projectFilePath": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\Auctionator.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ragna\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ragna\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -8,7 +8,7 @@ using AuctioNator.Items.AsyncDataService;
 
 namespace AuctioNator.Items.Controllers
 {
-    //Kalder den [controller] istedet for at hardcode dens navn. afkobling
+   
     [Route("api/[controller]")]
     [ApiController]
     public class ItemsController : ControllerBase

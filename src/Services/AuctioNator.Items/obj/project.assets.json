@@ -2432,11 +2432,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.Items\\AuctioNator.Items.csproj",
+      "projectUniqueName": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.Items\\AuctioNator.Items.csproj",
       "projectName": "AuctioNator.Items",
-      "projectPath": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.Items\\AuctioNator.Items.csproj",
+      "projectPath": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.Items\\AuctioNator.Items.csproj",
       "packagesPath": "C:\\Users\\Ragna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Services\\AuctioNator.Items\\obj\\",
+      "outputPath": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Services\\AuctioNator.Items\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ragna\\AppData\\Roaming\\NuGet\\NuGet.Config",

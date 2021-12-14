@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Auctionator.Client
 build_property.RootNamespace = Auctionator.Client
-build_property.ProjectDir = C:\Users\Ragna\Desktop\Github\Auctionator\src\Client\Auctionator.Client\
+build_property.ProjectDir = C:\Users\Ragna\Desktop\4 semester eksamen\Auctionator\src\Client\Auctionator.Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Ragna\Desktop\Github\Auctionator\src\Client\Auctionator.Client
+build_property.MSBuildProjectDirectory = C:\Users\Ragna\Desktop\4 semester eksamen\Auctionator\src\Client\Auctionator.Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/App.razor]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/Pages/AuctionHouse.razor]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/Pages/AuctionHouse.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXVjdGlvbkhvdXNlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/Pages/Index.razor]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/Pages/SellPage.razor]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/Pages/SellPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsbFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/Pages/Valuer.razor]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/Pages/Valuer.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmFsdWVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/Shared/ItemList.razor]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/Shared/ItemList.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEl0ZW1MaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/Shared/SurveyPrompt.razor]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/_Imports.razor]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/Shared/MainLayout.razor]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-h6z4oeubzw
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/Shared/NavMenu.razor]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-6vcjcyusvx
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/Pages/Error.cshtml]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/Pages/_Host.cshtml]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ragna/Desktop/Github/Auctionator/src/Client/Auctionator.Client/Pages/_Layout.cshtml]
+[C:/Users/Ragna/Desktop/4 semester eksamen/Auctionator/src/Client/Auctionator.Client/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
