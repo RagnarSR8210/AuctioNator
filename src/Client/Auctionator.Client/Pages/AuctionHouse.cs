@@ -1,21 +1,20 @@
-﻿using Microsoft.AspNetCore.Components;
-using Auctionator.Client.Data;
+﻿using Auctionator.Client.Data;
+using System.Threading.Tasks;
 
+using Microsoft.AspNetCore.Components;
 namespace Auctionator.Client.Pages
 {
-    
-    
-        public partial class FetchData
+    public class FetchDataBase
+    {
+        [Inject]
+        private HttpClient Http { get; set; }
+
+        private ItemsDto[] items;
+
+
+        protected async Task OnInitializedAsync()
         {
-            [Inject]
-            private HttpClient Http { get; set; }
-
-            private Items[] items;
-
-            protected override async Task OnInitializedAsync()
-            {
-                items = await Http.GetFromJsonAsync<Items[]>("mangophar.com/api/items");
-            }
+            items = await Http.GetFromJsonAsync<ItemsDto[]>("http://mangophar.com/api/items");
         }
-    
+    }
 }

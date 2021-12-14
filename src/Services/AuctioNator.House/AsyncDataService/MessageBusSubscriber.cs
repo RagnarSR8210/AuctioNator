@@ -27,9 +27,15 @@ namespace AuctioNator.House.AsyncDataServices
 
         private void InitializeRabbitMQ()
         {
-            var factory = new ConnectionFactory() { HostName = _configuration["RabbitMQHost"], Port = int.Parse(_configuration["RabbitMQPort"]) };
-
            
+
+            //var factory = new ConnectionFactory() { HostName = _configuration["RabbitMQHost"], Port = int.Parse(_configuration["RabbitMQPort"]) };
+            var factory = new ConnectionFactory();
+            factory.HostName = _configuration["RabbitMQHost"];
+            var port = _configuration["RabbitMQPort"];
+            var portAsInteger = Convert.ToInt32(port);
+            factory.Port = portAsInteger;
+
 
             _connection = factory.CreateConnection();
             _channel = _connection.CreateModel();

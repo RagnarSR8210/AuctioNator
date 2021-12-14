@@ -2,7 +2,7 @@
 
 namespace Auctionator.Client.Data
 {
-    public class Items
+    public class ItemsDto
     {     
         [JsonPropertyName("id")]
         public int Id { get; set; }   
