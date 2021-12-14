@@ -4,6 +4,6 @@ namespace AuctioNator.House.Interfaces
 {
     public interface IMessageBusClient
     {
-        void PublishNewItem(AuctionPublishedDto itemPublishedDto);
+        void PublishNewItem(AuctionPublishedDto actionPublishedDto);
     }
 }

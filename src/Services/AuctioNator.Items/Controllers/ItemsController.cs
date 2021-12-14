@@ -87,6 +87,19 @@ namespace AuctioNator.Items.Controllers
             return CreatedAtRoute(nameof(GetItemById), new { Id = itemReadDto.Id }, itemReadDto);
         }
 
+        [HttpDelete]
+        public IActionResult DeleteItemByID(int id)
+        {
+            if (id <=0)
+            {
+                _repository.DeleteItemByID(id);
+                _repository.SaveChanges();
+
+            }
+            return Ok();
+        }
+
+
     }
 }
 

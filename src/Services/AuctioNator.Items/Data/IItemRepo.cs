@@ -9,5 +9,6 @@ namespace AuctioNator.Items.Data
         IEnumerable<Item> GetAllItems();
         Item GetItemByID(int id);
         void CreateItem(Item plat);
+        void DeleteItemByID(int id);
     }
 }

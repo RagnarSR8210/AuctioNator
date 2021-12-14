@@ -1,17 +1,20 @@
-﻿namespace Auctionator.Client.Data
+﻿using System.Text.Json.Serialization;
+
+namespace Auctionator.Client.Data
 {
     public class Items
-    {
-        public int Id { get; set; }       
-        public string Name { get; set; }      
-        public int Age { get; set; }       
+    {     
+        [JsonPropertyName("id")]
+        public int Id { get; set; }   
+        [JsonPropertyName("name")]
+        public string Name { get; set; }
+        [JsonPropertyName("age")]
+        public int Age { get; set; }   
+        [JsonPropertyName("price")]
         public int Price { get; set; }
-        public int OriginalPrice { get; set; }
+        [JsonPropertyName("maker")]
         public string Maker { get; set; }
+        [JsonPropertyName("brand")]
         public string Brand { get; set; }
-        public bool IsPublic { get; set; }
-        public bool IsDeleted { get; set; }
-        public DateTime DateCreated { get; set; } = DateTime.Now;
-        public int  CategoryId { get; set; }
     }
 }

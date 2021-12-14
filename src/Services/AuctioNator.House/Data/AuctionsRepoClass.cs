@@ -29,6 +29,11 @@ namespace AuctioNator.House.Data
             }
         }
 
+        public bool ExternalAuctionExists(int externalItemId)
+        {
+            return _context.Items.Any(p => p.ExternalId == externalItemId);
+        }
+
         public IEnumerable<Auctions> GetAllAuctions()
         {
             return _context.Auctions.ToList();

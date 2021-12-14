@@ -12,6 +12,68 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\Ragna\.nuget\packages\" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)ravendb.client\5.3.0\contentFiles\any\any\libzstd.arm.32.so" Condition="Exists('$(NuGetPackageRoot)ravendb.client\5.3.0\contentFiles\any\any\libzstd.arm.32.so')">
+      <NuGetPackageId>RavenDB.Client</NuGetPackageId>
+      <NuGetPackageVersion>5.3.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libzstd.arm.32.so</TargetPath>
+      <Private>True</Private>
+      <Link>libzstd.arm.32.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.client\5.3.0\contentFiles\any\any\libzstd.arm.64.so" Condition="Exists('$(NuGetPackageRoot)ravendb.client\5.3.0\contentFiles\any\any\libzstd.arm.64.so')">
+      <NuGetPackageId>RavenDB.Client</NuGetPackageId>
+      <NuGetPackageVersion>5.3.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libzstd.arm.64.so</TargetPath>
+      <Private>True</Private>
+      <Link>libzstd.arm.64.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.client\5.3.0\contentFiles\any\any\libzstd.linux.x64.so" Condition="Exists('$(NuGetPackageRoot)ravendb.client\5.3.0\contentFiles\any\any\libzstd.linux.x64.so')">
+      <NuGetPackageId>RavenDB.Client</NuGetPackageId>
+      <NuGetPackageVersion>5.3.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libzstd.linux.x64.so</TargetPath>
+      <Private>True</Private>
+      <Link>libzstd.linux.x64.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.client\5.3.0\contentFiles\any\any\libzstd.mac.x64.dylib" Condition="Exists('$(NuGetPackageRoot)ravendb.client\5.3.0\contentFiles\any\any\libzstd.mac.x64.dylib')">
+      <NuGetPackageId>RavenDB.Client</NuGetPackageId>
+      <NuGetPackageVersion>5.3.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libzstd.mac.x64.dylib</TargetPath>
+      <Private>True</Private>
+      <Link>libzstd.mac.x64.dylib</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.client\5.3.0\contentFiles\any\any\libzstd.win.x64.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.client\5.3.0\contentFiles\any\any\libzstd.win.x64.dll')">
+      <NuGetPackageId>RavenDB.Client</NuGetPackageId>
+      <NuGetPackageVersion>5.3.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libzstd.win.x64.dll</TargetPath>
+      <Private>True</Private>
+      <Link>libzstd.win.x64.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.client\5.3.0\contentFiles\any\any\libzstd.win.x86.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.client\5.3.0\contentFiles\any\any\libzstd.win.x86.dll')">
+      <NuGetPackageId>RavenDB.Client</NuGetPackageId>
+      <NuGetPackageVersion>5.3.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libzstd.win.x86.dll</TargetPath>
+      <Private>True</Private>
+      <Link>libzstd.win.x86.dll</Link>
+    </None>
+  </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.props')" />
     <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.2.3\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.2.3\build\Swashbuckle.AspNetCore.props')" />

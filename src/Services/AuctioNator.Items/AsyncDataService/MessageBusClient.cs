@@ -18,6 +18,7 @@ namespace AuctioNator.Items.AsyncDataService
             {
                 HostName = _configuration["RabbitMQHost"],
                 Port = int.Parse(_configuration["RabbitMQPort"])};
+
             try
             {
                 _connection = factory.CreateConnection();

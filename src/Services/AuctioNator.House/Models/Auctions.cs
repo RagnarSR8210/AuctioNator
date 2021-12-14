@@ -17,6 +17,8 @@ namespace AuctioNator.House.Models
         public string SellerId { get; set; }
         [Required]
         public DateTime ExpirationDate { get; set; }
+        [Required]
+        public int ExternalId { get; set; }
 
         public ICollection<Auctions> Houses { get; set; } = new List<Auctions>();
     }

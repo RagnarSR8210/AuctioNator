@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uRzI2bgjhOokG4GIeX0HJzhleDWMMFEHmG9M8jbDQxM=",
+  "Hash": "s/gqtusV0zbBiI+PDNaxgFyGpwAXmWtxyIEWL1zEqUE=",
   "Source": "Auctionator.Client",
   "BasePath": "_content/Auctionator.Client",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Auctionator.Client\\wwwroot",
       "Source": "Auctionator.Client",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Auctionator.Client.styles.css",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Auctionator.Client.styles.css",
       "SourceId": "Auctionator.Client",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "Auctionator.Client.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Auctionator.Client.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Auctionator.Client.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Auctionator.Client.bundle.scp.css",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Auctionator.Client.bundle.scp.css",
       "SourceId": "Auctionator.Client",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "Auctionator.Client.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Auctionator.Client.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Auctionator.Client.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\css\\site.css",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\favicon.ico",
       "SourceId": "Auctionator.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\Github\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ragna\\Desktop\\4 semester eksamen\\Auctionator\\src\\Client\\Auctionator.Client\\wwwroot\\",
       "BasePath": "_content/Auctionator.Client",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

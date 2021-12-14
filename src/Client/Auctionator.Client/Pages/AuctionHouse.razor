@@ -2,7 +2,7 @@
 
 <PageTitle>Auction House</PageTitle>
 
-<h1>Live Auctions</h1>
+<h3>Live Auctions</h3>
 
 <p>View of the live auctions on Auctionator</p>
 
@@ -11,6 +11,31 @@
 
 
 
-@code {
-    
+@if (items == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+<table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Tentative (y/n)</th>
+                <th>Launch Date</th>
+                <th>Mission Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var launch in launches)
+            {
+                <tr>
+                    <td>@launch.Id</td>
+                    <td>@launch.IsTentative</td>
+                    <td>@launch.LaunchDateLocal</td>
+                    <td>@launch.MissionName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }

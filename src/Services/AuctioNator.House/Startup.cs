@@ -1,5 +1,6 @@
-﻿using AuctioNator.House.AsyncDataService;
+﻿using AuctioNator.House.AsyncDataServices;
 using AuctioNator.House.Data;
+using AuctioNator.House.Eventprocessing;
 using AuctioNator.House.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -21,24 +22,24 @@ namespace AuctioNator.House
 
         public void ConfigureServices(IServiceCollection services)
         {
-
+            
 
             Console.WriteLine("---> Using InmemDB");
             services.AddDbContext<AppDbContext>(opt =>
             opt.UseInMemoryDatabase("InMem"));
-
-
             services.AddScoped<IAuctionRepo, AuctionsRepoClass>();
-
-            services.AddSingleton<IMessageBusClient, MessageBusClient>();
-
             services.AddControllers();
+            services.AddHostedService<MessageBusSubscriber>();
+
+            services.AddSingleton<IEventProcessor, EventProcessor>();                     
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AuctioNator.House", Version = "v1" });
             });
         }
+
+
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -58,6 +59,8 @@ namespace AuctioNator.House
             {
                 endpoints.MapControllers();
             });
+
+            PrepDb.PrepPopulation(app, env.IsProduction());
         }
     }
 }

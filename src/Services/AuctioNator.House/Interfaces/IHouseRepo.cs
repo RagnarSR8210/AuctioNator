@@ -11,7 +11,7 @@ namespace AuctioNator.House.Data
         IEnumerable<Items> GetAllItems();
         void CreateItem(Items item);
         bool ItemExists(int itemId);
-
+        bool ExternalItemExists(int externalItemId);
 
 
         //huset?

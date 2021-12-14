@@ -4,28 +4,40 @@ using AuctioNator.House.Data;
 using AuctioNator.House.Dtos;
 using AuctioNator.House.Models;
 using AuctioNator.House.Interfaces;
-using AuctioNator.House.AsyncDataService;
+using Raven.Client.Documents;
+using System.Security.Cryptography.X509Certificates;
 
 namespace AuctioNator.House.Controllers
 {
     //Kalder den [controller] istedet for at hardcode dens navn. afkobling
-    [Route("api/[controller]")]
+    [Route("api/h/[controller]")]
     [ApiController]
     public class AuctionsController : ControllerBase
     {
         private readonly IAuctionRepo _repository;
         private readonly IMapper _mapper;
         private readonly IMessageBusClient _messageBusClient;
+        private DocumentStore _store;
+        X509Certificate2 clientCertificate = new X509Certificate2("C:\\Users\\Ragna\\AppData\\Roaming\\Microsoft\\SystemCertificates\\My\\Certificates\\E349A40EDE36501F2DD483E54D916C6B18AE5CE0");
 
         public AuctionsController(
             IAuctionRepo repository,
             IMapper mapper,
             IMessageBusClient messageBusClient)
         {
+
             _repository = repository;
             _mapper = mapper;
-            _messageBusClient = messageBusClient;
 
+            _store = new DocumentStore
+            {
+                Urls = new[] { "https://a.free.auctionator.ravendb.cloud/studio/index.html#databases/documents?&database=AuctioNatorHouse" },
+                Database = "AuctioNatorHouse",
+                Certificate = clientCertificate
+            };
+
+            _store.Initialize();
+            //_messageBusClient = messageBusClient;
         }
 
         [HttpGet]
@@ -37,6 +49,8 @@ namespace AuctioNator.House.Controllers
 
             return Ok(_mapper.Map<IEnumerable<AuctionReadDto>>(itemAuction));
         }
+
+        
 
         [HttpGet("{id}", Name = "GetAuctionById")]
         public ActionResult<AuctionReadDto> GetAuctionsById(int id)
@@ -51,44 +65,53 @@ namespace AuctioNator.House.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<AuctionReadDto>> CreateAuction(AuctionCreateDto auctionCreateDto)
+        public ActionResult<AuctionReadDto> CreateAuction(AuctionCreateDto auctionCreateDto)
         {
             var itemModel = _mapper.Map<Auctions>(auctionCreateDto);
             _repository.CreateAuction(itemModel);
             _repository.SaveChanges();
 
-            var auctionReadDto = _mapper.Map<ItemReadDto>(itemModel);
+            var auctionReadDto = _mapper.Map<AuctionReadDto>(itemModel);
 
             try
             {
-                Console.WriteLine("---> Auction was created");
+                
             }
             catch (Exception ex)
             {
 
-                Console.WriteLine($"---> Coul not create Auction: {ex.Message}");
+                Console.WriteLine($"---> Could not create Auction: {ex.Message}");
             }
 
-            return Ok(_mapper.Map<IEnumerable<AuctionCreateDto>>(auctionCreateDto));
-
-
-            //Send Async Message
-            try
-            {
-                var auctionpuPlishedDto = _mapper.Map<AuctionPublishedDto>(auctionReadDto);
-                auctionpuPlishedDto.Event = "Item_Published";
-                _messageBusClient.PublishNewItem(auctionpuPlishedDto);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"---> could not send Asynchronously: {ex.Message}");
-            }
-
-            return CreatedAtRoute(nameof(GetAuctionsById),
-                                  new { Id = auctionReadDto.Id },
-                                  auctionReadDto);
+            return Ok(_mapper.Map<IEnumerable<AuctionCreateDto>>(auctionCreateDto));    
         }
-    }
+
+
+
+        [HttpPost]
+        public async Task<IEnumerable<AuctionReadDto>> RavenPostAuction(AuctionCreateDto auction)
+        {
+            using (var session = _store.OpenAsyncSession())
+            {
+                var newAuction = new AuctionCreateDto
+                {
+                    Name = auction.Name,
+                    Price = auction.Price,
+                    SellerId = auction.SellerId,
+                    ExpirationDate = auction.ExpirationDate
+
+                };
+
+                await session.StoreAsync(auction);
+                await session.SaveChangesAsync();
+
+                return await session.Query<AuctionReadDto>().Where(s => s.Id != null).ToListAsync();
+            }
+
+        
+}
+
+ }
 
     
 }

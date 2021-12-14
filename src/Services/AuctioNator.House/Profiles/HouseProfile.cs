@@ -13,9 +13,14 @@ namespace AuctioNator.House.Profiles
 
             CreateMap<Items, ItemReadDto>();
             CreateMap<ItemCreateDto, Items>();
+            CreateMap<ItemPublishedDto, Items>()
+                .ForMember(dest => dest.ExternalId, opt => opt.MapFrom(src => src.Id));
+
 
             CreateMap<Auctions, AuctionReadDto>();
             CreateMap<AuctionCreateDto, Auctions>();
+            CreateMap<AuctionPublishedDto, Auctions>()
+                .ForMember(dest => dest.ExternalId, opt => opt.MapFrom(src => src.Id));           
         }     
     }
 }

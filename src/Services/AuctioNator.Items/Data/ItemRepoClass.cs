@@ -44,5 +44,10 @@ namespace AuctioNator.Items.Data
         {
             return (_context.SaveChanges() >= 0);
         }
+
+        public void DeleteItemByID(int id)
+        {
+            _context.Remove(id);
+        }
     }
 }
